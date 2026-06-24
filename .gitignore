@@ -1,0 +1,19 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# SSH keys (just in case)
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+.idea/
